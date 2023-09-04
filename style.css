@@ -1,0 +1,114 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Poppins&display=swap');
+head{
+    display: none;
+}
+body{
+    position: relative;
+    background-repeat: no-repeat;
+    background-image: url("https://kq-storage.s3.ap-south-1.amazonaws.com/Github/bucketlist/bucket-list-bg%5B1%5D.png");
+    background-size: 100% 260px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.container{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+div {
+    display: block;
+}
+
+.heading{
+    margin-top: 5vh;
+    color: white;
+    font-size: 40px;
+
+}
+h1{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.input-field{
+    width: 25%;
+    height: 40px;
+    border: 1px solid #F7BE3B;
+    border-radius: 20px;
+    font-size: 18px;
+
+}
+.btn-submit{
+    width: 5%;
+    height: 45px;
+    border-radius: 20px;
+    position: absolute;
+    margin-left: -4%;
+    background-color: #F7BE3B;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.list-container{
+    width: 100%;
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+    color: #13243E;
+}
+h2{
+    font-size: 28px;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-start: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.hint{
+    font-size: 18px;
+    line-height: 20px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.list-container {
+    width: 100%;
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+    color: #13243E;
+}
+li{
+    width: 30%;
+    border:1px solid #828282;
+    margin-left: 33%;
+    text-align: start;
+    padding: 1%;
+    margin-top: 1%;
+    border-radius: 25px;
+    color: #13243E;
+    list-style-type: none;
+
+}
+.btn-reset{
+    width: 15%;
+    height: 5.8vh;
+    border-radius: 20px;
+    border: 1px solid #F7BE38;  
+    background-color: #F7BE38;
+    font-weight: bold;
+    font-size: 18px
+}
+.footer{
+    text-align: center;
+    margin-top: 5%;
+}
